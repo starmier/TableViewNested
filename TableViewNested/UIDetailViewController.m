@@ -47,6 +47,7 @@
     CGFloat yPoint = 0.0f;
     CGRect rect = [UIScreen mainScreen].bounds;
     if ([UIDevice currentDevice].systemVersion.floatValue >= 7.0) {
+        
         yPoint += 20.0f;
         UIView *headV = [[UIView alloc]init];
         headV.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 20);
